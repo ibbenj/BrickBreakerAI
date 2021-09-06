@@ -2,6 +2,7 @@ import pygame
 import os
 import neat
 # inspired by tech with tim youtube tutorial (pygame and flappy bird ones)
+# in particular, this playlist: https://www.youtube.com/watch?v=MMxFDaIOHsE&list=PLzMcBGfZo4-lwGZWXz5Qgta_YNX3_vLS2&index=1
 """
 For this challenge:
 1) Build a game which is like brick breaker except you are controling a ball above the bricks influenced by gravity and you loose if you fall off the screen before hitting all the bricks
@@ -215,12 +216,3 @@ if __name__ == "__main__":
     local_dir = os.path.dirname(__file__)  #gives path to current directory
     config_path = os.path.join(local_dir, "config-feedforward.txt")
     run(config_path)
-
-"""
-1) add board for each ball
-2) save data
-3) play around with brick numbers
-5) party (upload this and the Unity game to GitHub to show my projects!!!)
-
-https://www.youtube.com/watch?v=NPbHUyVDYDw&list=PLzMcBGfZo4-lwGZWXz5Qgta_YNX3_vLS2&index=7
-"""
